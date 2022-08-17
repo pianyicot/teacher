@@ -1,0 +1,22 @@
+html {
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(131,112,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(131,112,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(131,112,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#8370ff",GradientType=1);
+}
+
+h1 {
+    /* display: flex - специальный набор функций СSS для позиционирования
+    разных блоков ОТНОСИТЕЛЬНО ДРУГ ДРУГА и краев страницы или блоков */
+    display: flex;
+    /* j-c: center - flex-стиль для позиционирования по центру */
+    justify-content: center;
+    color: rgb(61, 2, 88);
+}
+
+button {    
+    color: rgb(23, 7, 61);
+}
