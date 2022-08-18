@@ -15,8 +15,29 @@ h1 {
     /* j-c: center - flex-стиль для позиционирования по центру */
     justify-content: center;
     color: rgb(61, 2, 88);
+    font-size: 50px;
 }
 
 button {    
-    color: rgb(23, 7, 61);
+    color: rgb(0, 4, 255);
+}
+
+div {
+    /* display: flex - специальный набор функций СSS для позиционирования
+    разных блоков ОТНОСИТЕЛЬНО ДРУГ ДРУГА и краев страницы или блоков */
+    display: flex;
+    /* j-c: center - flex-стиль для позиционирования по центру */
+    justify-content: center;
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    color: #6C00FF;    
+    margin: 20px;
+    font-size: 30px;
 }
