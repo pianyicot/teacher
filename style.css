@@ -8,6 +8,22 @@ html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#8370ff",GradientType=1);
 }
 
+.bad {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 71%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 71%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 71%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ff0000",GradientType=1);
+}
+
+.good {
+    background: rgb(137,250,255);
+    background: -moz-linear-gradient(180deg, rgba(137,250,255,1) 0%, rgba(252,127,226,1) 83%);
+    background: -webkit-linear-gradient(180deg, rgba(137,250,255,1) 0%, rgba(252,127,226,1) 83%);
+    background: linear-gradient(180deg, rgba(137,250,255,1) 0%, rgba(252,127,226,1) 83%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#89faff",endColorstr="#fc7fe2",GradientType=1);
+}
+
 h1 {
     /* display: flex - специальный набор функций СSS для позиционирования
     разных блоков ОТНОСИТЕЛЬНО ДРУГ ДРУГА и краев страницы или блоков */
@@ -16,6 +32,10 @@ h1 {
     justify-content: center;
     color: rgb(61, 2, 88);
     font-size: 50px;
+}
+
+.bad_h {
+    color: white;
 }
 
 button {    
